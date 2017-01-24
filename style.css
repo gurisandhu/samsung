@@ -3,7 +3,7 @@
 			Theme URI: http://www.samsung.com.au
 			Description: Samsung
 			Version: 1
-			Author: Guri Sandhu @ Made in Fairfax
+			Author: Guri Sandhu @ Made by Fairfax
 			Author URI: http://www.gurisandhu.com.au
 			*****************/
 
@@ -11,4 +11,5 @@
 /*
 To EDIT the style sheet please use theme.scss file in root directory. Also needs to run Gulp to compress the style sheet to 'theme.css' file.
 */
+@import 'fonts.css';
 @import 'compressed/theme.css';

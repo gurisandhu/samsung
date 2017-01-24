@@ -4,10 +4,389 @@
 @import 'editor';
 
 
+// //////////////
+// Fonts
+// //////////////
+$sam-bold: 'SamsungSharpSans-Bold',Sans-Serif;
+$sam-med: 'SamsungSharpSans-Medium',Sans-Serif;
+$sam-reg: 'SamsungSharpSans-Regular',Sans-Serif;
+$sam-one-200: 'SamsungOne-200C_v1.0',Sans-Serif;
+$sam-one-300: 'SamsungOne-300C_v1.0';
+$sam-one-400: 'SamsungOne-400C_v1.0',Sans-Serif;
+$sam-one-450: 'SamsungOne-450C_v1.0',Sans-Serif;
+$sam-one-500: 'SamsungOne-500C_v1.0',Sans-Serif;
+$sam-one-600: 'SamsungOne-600C_v1.0',Sans-Serif;
+$sam-one-700: 'SamsungOne-700C_v1.0',Sans-Serif;
+$sam-one-800: 'SamsungOne-800C_v1.0',Sans-Serif;
 
+// //////////////
+// Colors
+// //////////////
+$dark-green: #303f40;
+$blue: #0023a4;
+$light-blue: #d0d4ec;
+$light-blue-2: #7a81c0;
+$light-grey: #bbb;
 
+// //////////////
+// Common Styles
+// //////////////
+body{
+	font-family: $sam-one-300;
+	font-size: 16px;
+	color: $dark-green;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+.container{
+	max-width: 1400+30px;
+}
+@include body-smooth($blue, transparent);
+.col-2{
+	@include col-2(0%, 0%);
+}
+.col-3{
+	@include col-3(0%, 0%);
+}
+.round-corners{
+	border: 1px solid $blue;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	    overflow: hidden;
+}
 
+// //////////////
+// Headings
+// //////////////
+.heading-common{
+	font-family: $sam-bold;
+	color: black;
+}
+h1{
+	font-size: 59px;
+	@extend .heading-common;
+}
+h2{
+	font-size: 44px;
+	@extend .heading-common;
+}
+h3{
+	font-size: 30px;
+	@extend .heading-common;
+}
+h4{
+	font-size: 24px;
+	@extend .heading-common;
+}
+h5{
+	font-size: 22px;
+	@extend .heading-common;
+}
+h6{
+	font-size: 18px;
+	@extend .heading-common;
+}
+a{
+	text-decoration: none;
+	color: $blue;
+}
+ul,ol{
+	padding-left: 18px;
+}
+.small-fonts{
+	font-size: 13px;
+}
+.blue{
+	color: $blue;
+}
 
+// //////////////
+// Table
+// //////////////
+table{
+	width: 100%;
+	margin-bottom: 20px;
+	tr{
+		th{
+			border: 1px solid $blue;
+			-webkit-border-top-left-radius: 5px;
+			        border-top-left-radius: 5px;
+			    -webkit-border-top-right-radius: 5px;
+			            border-top-right-radius: 5px;
+		}
+		&:last-child{
+			td{
+				-webkit-border-bottom-left-radius: 5px;
+			        border-bottom-left-radius: 5px;
+			    -webkit-border-bottom-right-radius: 5px;
+			            border-bottom-right-radius: 5px;
+			}	
+		}
+	}
+}
+td{
+	border: 1px solid $blue;
+	@include transition(.3);
+	border-top: none;
+	padding: 10px;
+	font-size: 19px;
+	font-family: $sam-one-300;
+	&:hover{
+		background-color: $light-blue;
+	}
+}
+th{
+	font-size: 24px;
+	padding: 20px;
+	text-align: left;
+	font-family: $sam-one-800;
+}
+
+// //////////////
+// Buttons
+// //////////////
+.button-common{
+	@include transition(.3);
+	display: inline-block;
+	border: 2px solid;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	padding: 11.5px 32px;
+	min-width: 134px;
+	text-align: center;
+	font-family: $sam-one-800;
+	text-transform: uppercase;
+	font-size: 21px;
+	float: left;
+	margin-right: 15px;
+	&:last-child{
+		margin-right: 0;
+	}
+}
+.button-1, button{
+	@extend .button-common;
+	background-color: $blue;
+	border-color: $blue;
+	color: white;
+	&:hover{
+		background-color: white;
+		color: $blue;
+	}
+	&.active{
+		color: $light-blue-2;
+	}
+}
+.button-2{
+	@extend .button-common;
+	background-color: white;
+	border-color: $blue;
+	color: $blue;
+	&:hover{
+		background-color: $blue;
+		color: white;
+		border-color: white;
+	}
+}
+
+// //////////////
+// Social Medias
+// //////////////
+.social-common{
+	list-style: none;
+	padding: 0;
+	float: left;
+	width: auto;
+	li{
+		display: inline-block;
+		margin-right: 10px;
+		width: 27px;
+		height: 27px;
+		text-align: center;
+		&:last-child{
+			margin-right: 0;
+		}
+		@include transition(.3);
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
+	}
+	.fa{
+		@include transition(.3);
+		font-size: 121%;
+	    line-height: 1.4;
+	    text-align: center;
+	}
+}
+.social-1{
+	@extend .social-common;
+	.fa{
+		color: $blue;
+	}
+	li{
+		&:hover{
+			background-color: $blue;
+			.fa{
+				color: white;
+			}
+		}
+	}
+}
+.social-2{
+	@extend .social-common;
+	background-color: $blue;
+	padding: 15px 25px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	.fa{
+		color: white;
+	}
+	li{
+		&:hover{
+			background-color: white;
+			.fa{
+				color: $blue;
+			}
+		}
+	}
+}
+
+// //////////////
+// Form
+// //////////////
+form{
+	width: 100%;
+	max-width: 670px;
+	margin: 0 auto 20px;
+	&:after{
+		content: "";
+		clear: both;
+		display: block;
+	}
+	label{
+		float: left;
+		max-width: 106px;
+		width: 100%;
+		font-size: 21px;
+		font-family: $sam-one-800;
+		line-height: 2.5;
+	}
+	input{
+		width: 80%;
+		font-size: 18px;
+		border: 1px solid black;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
+		padding: 15px 10px;
+		font-weight: 100;
+	}
+	@include placeholder($light-grey);
+}
+.form-row{
+	float: left;
+	width: 80%;
+	margin-top: 15px;
+	.col-3{
+		@include col-3(2%, 0%);
+	}
+	span{
+		color: $light-grey;
+		font-size: 14px;
+		font-weight: bold;
+		margin-top: 9px;
+	}
+}
+select{
+	padding: 13px 15px;
+	border: 1px solid black;
+	font-size: 18px;
+	color: $blue;
+	text-align: center;
+	@include transition(.3);
+	option{
+		text-align: center;
+		@include transition(.3);
+		&:hover{
+			color: $blue;
+		}
+	}
+}
+.radio-button{
+	position: relative;
+	font-size: 18px;
+	font-family: $sam-one-800;
+	padding-left: 35px;
+	line-height: 1.7;
+	margin-bottom: 15px;
+	&:last-child{
+		margin-bottom: 0;
+	}
+	input[type="radio"]{
+		position: absolute;
+		opacity: 0;
+		width: 100%;
+		left: 0;
+		height: 100%;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+		&:checked{
+			& + .new-radio{
+				&:after{
+					background-color: $blue;
+				}
+			}
+		}
+	}
+}
+.new-radio{
+	&:before, &:after{
+		content: "";
+		position: absolute;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
+	}
+	&:before{
+		left: 0;
+		top: 0;
+		width: 25px;
+		height: 25px;
+		border: 1px solid black;
+	}
+	&:after{
+		@include transition(.3);
+		left: 6px;
+		top: 6px;
+		width: 15px;
+		height: 15px;
+	}
+}
+// //////////////
+// Top Header
+// //////////////
+.top-header{
+	background-color: black;
+	color: white;
+	padding: 9px 0;
+	img{
+		float: left;
+	}
+	.col-2:last-child{
+		a{
+			float: right;
+			color: white;
+			font-size: 10px;
+			font-family: $sam-reg;
+			line-height: 1.5;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+// //////////////
+// Header
+// //////////////
 
 
 

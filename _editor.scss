@@ -138,7 +138,7 @@ img{
 body{
   margin: 0;
   padding: 0;
-  &:after{
+  &:after, &:before{
   	clear: both;
   	display: block;
   	content: "";
@@ -152,7 +152,7 @@ header, section, footer, aside, nav{
 	width:100%;
 	float: left;
 	&:not(:first-of-type){
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 }
 .full-width{
@@ -160,11 +160,11 @@ header, section, footer, aside, nav{
 	width: 100%;
 }
 
-@mixin col-2($margin){
+@mixin col-2($margin, $margin2){
 	float: left;
 	width: (100%-($margin))/2;
 	margin-right: $margin;
-	margin-bottom: $margin;
+	margin-bottom: $margin2;
 	&:first-child{
 		clear: left;
 	}
@@ -202,11 +202,11 @@ header, section, footer, aside, nav{
 		clear: both;
 	}
 }
-@mixin col-3($margin){
+@mixin col-3($margin, $margin2){
 	float: left;
 	width: (100%-($margin*2))/3;
 	margin-right: $margin;
-	margin-bottom: $margin;
+	margin-bottom: $margin2;
 	&:first-child{
 		clear: left;
 	}
@@ -227,11 +227,11 @@ header, section, footer, aside, nav{
 	}
 }
 
-@mixin col-4($margin){
+@mixin col-4($margin, $margin2){
 	float: left;
 	width: (100%-($margin*3))/4;
 	margin-right: $margin;
-	margin-bottom: $margin;
+	margin-bottom: $margin2;
 	&:first-child{
 		clear: left;
 	}
@@ -421,4 +421,18 @@ button{
 }
 a[href*="#"]{
 	cursor: default!important;
+}
+select{
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	    float: left;
+	    width: 100%;
+	&::-ms-expand{
+		display: none;
+	}
+	option{
+		float: left;
+		width: 100%;
+	}
 }
