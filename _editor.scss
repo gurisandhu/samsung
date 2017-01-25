@@ -420,7 +420,7 @@ button{
 	cursor: pointer;
 }
 a[href*="#"]{
-	cursor: default!important;
+	// cursor: default!important;
 }
 select{
 	-webkit-appearance: none;
