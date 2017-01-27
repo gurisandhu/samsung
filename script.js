@@ -16,6 +16,17 @@ $(document).ready(function(){
         loop: true,
     });
 
+  // ++++++++++++++++++++
+  // Tile slider
+  // ++++++++++++++++++++ 
+  var swiperTile = new Swiper('.swiper-container-tile', {
+    pagination: '.swiper-pagination',
+    slidesPerView: 3,
+    scrollbarHide: false,
+    scrollbar: '.swiper-scrollbar',
+    paginationClickable: true,
+    spaceBetween: 20
+  });
 
   // ++++++++++++++++++++ 
   // Video
