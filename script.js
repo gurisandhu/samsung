@@ -25,7 +25,17 @@ $(document).ready(function(){
     scrollbarHide: false,
     scrollbar: '.swiper-scrollbar',
     paginationClickable: true,
-    spaceBetween: 20
+    spaceBetween: 20,
+    breakpoints: {
+            990: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            660: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            }
+        }
   });
 
   // ++++++++++++++++++++ 
@@ -36,5 +46,19 @@ $(document).ready(function(){
       $("iframe#video-to-play").attr("src", $("iframe#video-to-play").attr("src").replace("autoplay=0", "autoplay=1"));
     // $(this).siblings('.news-content-hover').addClass('hide');
     // $(this).parent('.news-video').addClass('shadow');
+  });
+
+  // ++++++++++++++++++++ 
+  // Sub Menu
+  // ++++++++++++++++++++ 
+  $('.desktop-menu ul').append('<hr />');
+  $('.desktop-menu ul').addClass('hide');
+
+  // ++++++++++++++++++++ 
+  // Responsive Menu
+  // ++++++++++++++++++++ 
+  $('.menu-button-wrapper').click(function(){
+    $(this).toggleClass('show');
+    $('.responsive-menu nav').slideToggle();
   });
 });//End of Document ready
