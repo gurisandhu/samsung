@@ -52,7 +52,7 @@ Section: News with Video
 		<div class="full-width news">
 			<div class="col-2">
 				<div class="news-video news-1 news-style-4">
-					<div class="news-content-front" style="background-image:url('compressed/images/video-image.png">
+					<a href="#" class="news-content-front" style="background-image:url('compressed/images/video-image.png');">
 						<button type="button" class="button-3">Subject</button>
 						<div class="video-content table">
 							<div class="table-cell">
@@ -64,7 +64,7 @@ Section: News with Video
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 					<div class="news-content-hover">
 						<div class="news-content-hover-wrapper">
 							<?php 
@@ -101,7 +101,7 @@ Section: News with Video
 			<div class="col-2">
 				<div class="col-2">
 					<div class="news-1 news-style-2">
-						<div class="news-content-front" style="background-image:url('compressed/images/foot.png');">
+						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
 								<div class="table-cell">
 									<p>Going out later, but don't have the right shoes?</p>
@@ -111,7 +111,7 @@ Section: News with Video
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -139,14 +139,14 @@ Section: News with Video
 				</div>
 				<div class="col-2">
 					<div class="news-1 news-style-3">
-						<div class="news-content-front">
+						<a href="#"  class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
 							<p>Interview with Reynold Poernomo</p>
 							<div class="button-area-2 row">
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -180,7 +180,7 @@ Section: News with Video
 Section: The Experts
 ++++++++++++++ -->
 <section class="experts">
-	<div class="container">
+	<div class="container has-swiper-slider">
 		<div class="col-2">
 			<div class="row">
 				<button type="button" class="button-4">The Experts</button>
@@ -190,11 +190,11 @@ Section: The Experts
 			</div>
 		</div>
 		<div class="col-2">
-			<div class="swiper-container-tile">
+			<div class="swiper-container-expert">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="expert">
-							<a href="#">
+							<a href="http://www.google.com">
 								<div class="expert-image">
 									<img src="compressed/images/expert-1.png" alt="">
 								</div>
@@ -274,10 +274,10 @@ Section: News
 		<div class="full-width news">
 			<div class="col-2">
 				<div class="news-1 news-style-1">
-					<div class="news-content-front" style="background-image:url('compressed/images/in-360.png">
+					<a href="#" class="news-content-front" style="background-image:url('compressed/images/in-360.png');">
 						<button type="button" class="button-3">Subject</button>
 						<p>360-degree in interactive Netball Australia campaign</p>
-					</div>
+					</a>
 					<div class="news-content-hover">
 						<div class="news-content-hover-wrapper">
 							<?php 
@@ -305,7 +305,7 @@ Section: News
 			<div class="col-2">
 				<div class="col-2">
 					<div class="news-1 news-style-2">
-						<div class="news-content-front" style="background-image:url('compressed/images/foot.png');">
+						<a href="#"  class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
 								<div class="table-cell">
 									<p>Going out later, but don't have the right shoes?</p>
@@ -315,7 +315,7 @@ Section: News
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -343,14 +343,14 @@ Section: News
 				</div>
 				<div class="col-2">
 					<div class="news-1 news-style-3">
-						<div class="news-content-front">
+						<a href="#"  class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
 							<p>Interview with Reynold Poernomo</p>
 							<div class="button-area-2 row">
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -380,7 +380,7 @@ Section: News
 			<div class="col-2">
 				<div class="col-2">
 					<div class="news-1 news-style-2">
-						<div class="news-content-front" style="background-image:url('compressed/images/foot.png');">
+						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
 								<div class="table-cell">
 									<p>Going out later, but don't have the right shoes?</p>
@@ -390,7 +390,7 @@ Section: News
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -418,14 +418,14 @@ Section: News
 				</div>
 				<div class="col-2">
 					<div class="news-1 news-style-3">
-						<div class="news-content-front">
+						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
 							<p>Interview with Reynold Poernomo</p>
 							<div class="button-area-2 row">
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -454,7 +454,7 @@ Section: News
 			<div class="col-2">
 				<div class="col-2">
 					<div class="news-1 news-style-2">
-						<div class="news-content-front" style="background-image:url('compressed/images/foot.png');">
+						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
 								<div class="table-cell">
 									<p>Going out later, but don't have the right shoes?</p>
@@ -464,7 +464,7 @@ Section: News
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -492,14 +492,14 @@ Section: News
 				</div>
 				<div class="col-2">
 					<div class="news-1 news-style-3">
-						<div class="news-content-front">
+						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
 							<p>Interview with Reynold Poernomo</p>
 							<div class="button-area-2 row">
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -533,7 +533,7 @@ Section: News
  <!-- Blue Swiper Slider -->
 <!-- ++++++++++++++ -->
 <section class="blue-slider full-width">
-		<div class="container one-twoThird">
+		<div class="container one-twoThird has-swiper-slider">
 			<div class="one-third">
 				<div class="row">
 					<button type="button" class="button-4">Latest</button>
@@ -547,14 +547,14 @@ Section: News
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<div class="news-1 news-style-3">
-						<div class="news-content-front">
+						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
 							<p>Interview with Reynold Poernomo</p>
 							<div class="button-area-2 row">
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -581,7 +581,7 @@ Section: News
 						</div>	
 						<div class="swiper-slide">
 							<div class="news-1 news-style-2">
-						<div class="news-content-front" style="background-image:url('compressed/images/foot.png');">
+						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
 								<div class="table-cell">
 									<p>Going out later, but don't have the right shoes?</p>
@@ -591,7 +591,7 @@ Section: News
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -619,7 +619,7 @@ Section: News
 						</div>
 						<div class="swiper-slide">
 							<div class="news-1 news-style-2">
-						<div class="news-content-front" style="background-image:url('compressed/images/foot.png');">
+						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
 								<div class="table-cell">
 									<p>Going out later, but don't have the right shoes?</p>
@@ -629,7 +629,7 @@ Section: News
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -657,7 +657,7 @@ Section: News
 						</div>
 						<div class="swiper-slide">
 							<div class="news-1 news-style-2">
-						<div class="news-content-front" style="background-image:url('compressed/images/foot.png');">
+						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
 								<div class="table-cell">
 									<p>Going out later, but don't have the right shoes?</p>
@@ -667,7 +667,7 @@ Section: News
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -708,10 +708,10 @@ Section: News
 		<div class="full-width news">
 			<div class="col-2">
 				<div class="news-1 news-style-1">
-					<div class="news-content-front" style="background-image:url('compressed/images/in-360.png">
+					<a href="#" class="news-content-front" style="background-image:url('compressed/images/in-360.png');">
 						<button type="button" class="button-3">Subject</button>
 						<p>360-degree in interactive Netball Australia campaign</p>
-					</div>
+					</a>
 					<div class="news-content-hover">
 						<div class="news-content-hover-wrapper">
 							<?php 
@@ -739,7 +739,7 @@ Section: News
 			<div class="col-2">
 				<div class="col-2">
 					<div class="news-1 news-style-2">
-						<div class="news-content-front" style="background-image:url('compressed/images/foot.png');">
+						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
 								<div class="table-cell">
 									<p>Going out later, but don't have the right shoes?</p>
@@ -749,7 +749,7 @@ Section: News
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -777,14 +777,14 @@ Section: News
 				</div>
 				<div class="col-2">
 					<div class="news-1 news-style-3">
-						<div class="news-content-front">
+						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
 							<p>Interview with Reynold Poernomo</p>
 							<div class="button-area-2 row">
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -814,7 +814,7 @@ Section: News
 			<div class="col-2">
 				<div class="col-2">
 					<div class="news-1 news-style-2">
-						<div class="news-content-front" style="background-image:url('compressed/images/foot.png');">
+						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
 								<div class="table-cell">
 									<p>Going out later, but don't have the right shoes?</p>
@@ -824,7 +824,7 @@ Section: News
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -852,14 +852,14 @@ Section: News
 				</div>
 				<div class="col-2">
 					<div class="news-1 news-style-3">
-						<div class="news-content-front">
+						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
 							<p>Interview with Reynold Poernomo</p>
 							<div class="button-area-2 row">
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -888,7 +888,7 @@ Section: News
 			<div class="col-2">
 				<div class="col-2">
 					<div class="news-1 news-style-2">
-						<div class="news-content-front" style="background-image:url('compressed/images/foot.png');">
+						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
 								<div class="table-cell">
 									<p>Going out later, but don't have the right shoes?</p>
@@ -898,7 +898,7 @@ Section: News
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 
@@ -926,14 +926,14 @@ Section: News
 				</div>
 				<div class="col-2">
 					<div class="news-1 news-style-3">
-						<div class="news-content-front">
+						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
 							<p>Interview with Reynold Poernomo</p>
 							<div class="button-area-2 row">
 								<div class="col-2" class="news-desc">Read Time 1Min</div>
 								<div class="col-2"><button type="button" class="button-3">Subject</button></div>
 							</div>
-						</div>
+						</a>
 						<div class="news-content-hover">
 							<div class="news-content-hover-wrapper">
 									<?php 

@@ -18,8 +18,8 @@ Section: Subscription form in bottom
 			<div class="row desktop-2">
 				<div class="row">
 					<ul class="full-width site-menu">
-						<li><a href="#">Who we are</a></li>
-						<li><a href="#">Contribute</a></li>
+						<li><a href="/samsung/styled.php">Who we are</a></li>
+						<li><a href="/samsung/author-post.php">Contribute</a></li>
 						<li><a href="#">Privacy</a></li>
 						<li><a href="#">Terms</a></li>
 					</ul>
@@ -49,8 +49,8 @@ Section: Subscription form in bottom
 		<div class="row responsive-2">
 				<div class="row">
 					<ul class="full-width site-menu">
-						<li><a href="#">Who we are</a></li>
-						<li><a href="#">Contribute</a></li>
+						<li><a href="/samsung/styled.php">Who we are</a></li>
+						<li><a href="/samsung/author-post.php">Contribute</a></li>
 						<li><a href="#">Privacy</a></li>
 						<li><a href="#">Terms</a></li>
 					</ul>
@@ -61,7 +61,7 @@ Section: Subscription form in bottom
 			</div>
 	</div>
 </footer>
-
+<div class="hide-body"></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="library/swiper.min.js"></script>
 <script src="compressed/script.js"></script>

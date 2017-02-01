@@ -703,6 +703,9 @@ Comments
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="show-loader"></div>
+		</div>
 	</div>
 </section>
 

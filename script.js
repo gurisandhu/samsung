@@ -11,9 +11,9 @@ $(document).ready(function(){
   var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
-        spaceBetween: 30,
-        // autoplay: 2400,
-        loop: true,
+        spaceBetween: 00,
+        autoplay: 2400,
+        loop: true
     });
 
   // ++++++++++++++++++++
@@ -33,7 +33,25 @@ $(document).ready(function(){
             },
             660: {
                 slidesPerView: 1,
-                spaceBetween: 0
+                spaceBetween: 20
+            }
+        }
+  });
+  var swiperExpert = new Swiper('.swiper-container-expert', {
+    pagination: '.swiper-pagination',
+    slidesPerView: 3,
+    scrollbarHide: false,
+    scrollbar: '.swiper-scrollbar',
+    paginationClickable: true,
+    spaceBetween: 20,
+    breakpoints: {
+            990: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            660: {
+                slidesPerView: 1.5,
+                spaceBetween: 20
             }
         }
   });
@@ -42,17 +60,19 @@ $(document).ready(function(){
   // Video
   // ++++++++++++++++++++ 
   $('.video-play').click(function(){
-    $('.video-to-play').addClass('show');
+    $('.video-to-play', this).addClass('show');
       $("iframe#video-to-play").attr("src", $("iframe#video-to-play").attr("src").replace("autoplay=0", "autoplay=1"));
-    // $(this).siblings('.news-content-hover').addClass('hide');
-    // $(this).parent('.news-video').addClass('shadow');
   });
+  $('.post-video').click(function(){
+    $('.video-to-play', this).addClass('show');
+      $("iframe#video-to-play").attr("src", $("iframe#video-to-play").attr("src").replace("autoplay=0", "autoplay=1"));
+  });
+
 
   // ++++++++++++++++++++ 
   // Sub Menu
   // ++++++++++++++++++++ 
-  $('.desktop-menu ul').append('<hr />');
-  $('.desktop-menu ul').addClass('hide');
+  $('.desktop-menu ul').append('<span class="border-bottom"></span>');
 
   // ++++++++++++++++++++ 
   // Responsive Menu
@@ -61,4 +81,29 @@ $(document).ready(function(){
     $(this).toggleClass('show');
     $('.responsive-menu nav').slideToggle();
   });
+
+  // ++++++++++++++++++++
+  // Header fixed, reduce size
+  // ++++++++++++++++++++
+  $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 33){
+        $('body').addClass('on-scrolled');
+    } else {
+      $('body').removeClass('on-scrolled');
+    }
+  });
+
+  // ++++++++++++++++++++
+  // Desktop Menu
+  // ++++++++++++++++++++
+
+  $('.desktop-menu ul').hover(function(){
+    $('.sub-menu-wrapper').addClass('hide');
+  });
+  $('header').mouseleave(function(){
+    $('.sub-menu-wrapper').removeClass('hide');
+  });
+
 });//End of Document ready

@@ -388,32 +388,24 @@ h1,h2,h3,h4,h5,h6{
 }
 .show-loader{
 	z-index: 2;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: #04284e; /* Old browsers */
-	background: -moz-linear-gradient(top,  #04284e 0%, #04284e 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #04284e 0%,#04284e 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #04284e 0%,#04284e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04284e', endColorstr='#04284e',GradientType=0 ); /* IE6-9 */
-	-webkit-box-shadow: none;
-	        box-shadow: none;
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+	position: relative;
 	&:after{
 		content: "";
-		width: 150px;
-	    height: 150px;
-	    border: .5px dashed #5783b1;
-	    border-top: 2.5px solid #fff;
+		width: 60px;
+	    height: 60px;
+	    border: .5px dashed $blue;
+	    border-top: 2.5px solid $blue;
 		-webkit-border-radius: 50%;
 		        border-radius: 50%;
 		display: block;
 		color: white;
 		position: absolute;
-		top: 50%;
+		top: 10px;
 		font-size: 55px;
-		left: 45%;
+		left: 10px;
 		// z-index: 1;
 	-webkit-animation: fa-spin .6s infinite linear;
 	   -moz-animation: fa-spin .6s infinite linear;
@@ -421,10 +413,13 @@ h1,h2,h3,h4,h5,h6{
 	        animation: fa-spin .6s infinite linear;
 	}
 }
-button{
+button, input[type="submit"]{
 	border: none;
 	font-size: inherit;
 	cursor: pointer;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
 }
 a[href*="#"]{
 	// cursor: default!important;
