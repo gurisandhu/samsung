@@ -784,7 +784,7 @@ header{
 // //////////////
 .banner{
 	.swiper-slide{
-		min-height: 503px;
+		height: 503px;
 		background-repeat: no-repeat;
 		-webkit-background-size: cover;
 		     -o-background-size: cover;
@@ -2077,7 +2077,7 @@ figcaption{
 // Search results
 // //////////////
 .banner-2{
-	min-height: 340px;
+	height: 340px;
 	text-align: center;
 	display: table;
 	padding: 20px 0;
