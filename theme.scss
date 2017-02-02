@@ -551,7 +551,6 @@ header{
 		li{
 			float: left;
 			width: auto;
-			margin-right: 15px;
 			&:last-of-type{
 				margin-right: 0;
 			}
@@ -569,6 +568,7 @@ header{
 .desktop-menu{
 	padding-top: 6px;
 	ul{
+		width: 100%;
 		position: relative;
 		&.hide{
 			&:after{
@@ -576,6 +576,7 @@ header{
 			}
 		}
 		li{
+			width: 25%;
 			$var: 0%;
 			@for $i from 1 through 4{
 				&:nth-child(#{$i}) {
@@ -635,6 +636,9 @@ header{
 				width: 1400px;
 			}
 		}
+	}
+	a{
+		text-align: center;
 	}
 }
 .desktop{

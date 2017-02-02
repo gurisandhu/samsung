@@ -3,7 +3,7 @@
 			<div class="col-3">
 				<nav class="desktop-menu">
 					<ul>
-						<li class="current-menu-itme"><a href="/samsung/technology.php">Technology</a></li>
+						<li class="current-menu-item"><a href="/samsung/technology.php">Technology</a></li>
 						<li><a href="/samsung/search.php">Search</a></li>
 						<li><a href="/samsung/author.php">Author</a></li>
 						<li><a href="/samsung/">Blog</a></li>
