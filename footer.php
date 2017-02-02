@@ -18,9 +18,9 @@ Section: Subscription form in bottom
 			<div class="row desktop-2">
 				<div class="row">
 					<ul class="full-width site-menu">
-						<li><a href="/samsung/styled.php">Who we are</a></li>
-						<li><a href="/samsung/author-post.php">Contribute</a></li>
-						<li><a href="#">Privacy</a></li>
+						<li><a href="/samsung/styled.php">Default Template</a></li>
+						<li><a href="/samsung/author-post.php">Author Post</a></li>
+						<li><a href="#">Contribute</a></li>
 						<li><a href="#">Terms</a></li>
 					</ul>
 				</div>

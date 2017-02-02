@@ -16,25 +16,29 @@
 <div class="top-header">
 	<div class="container">
 		<div class="col-2">
-			<img src="compressed/images/sam_logo.png" alt="Samsung Logo">
+			<a href="/samsung/"><img src="compressed/images/sam_logo.png" alt="Samsung Logo"></a>
 		</div>
 		<div class="col-2">
-			<a href="/" target="_blank" class="sam-link">samsung australia ></a>
+			<a href="#" target="_blank" class="sam-link">samsung australia ></a>
 		</div>
 	</div>
 </div>
 <header>
 
 	<?php 
-		$currentPage = $_SERVER['REQUEST_URI'];
-		$singlePost = '/samsung/single-post.php';
-		$authorPost = '/samsung/author-post.php';
-		if(($currentPage==$singlePost)||($currentPage==$authorPost)) {
-			include 'header-blue.php';
-		} else {
 			include 'header-white.php';
 			include 'sub-menu.php';
-		}
+		// $currentPage = $_SERVER['REQUEST_URI'];
+		// $singlePost = '/samsung/single-post.php';
+		// $authorPost = '/samsung/author-post.php';
+		// if(($currentPage==$singlePost)||($currentPage==$authorPost)) {
+		// 	include 'header-white.php';
+		// 	include 'sub-menu.php';
+		// 	include 'header-blue.php';
+		// } else {
+		// 	include 'header-white.php';
+		// 	include 'sub-menu.php';
+		// }
 		
 
 	 ?>
@@ -43,10 +47,10 @@
 		<div class="container">
 			<nav>
 				<ul class="navigation">
-					<li class="menu-item-has-children"><a href="/samsung/styled.php">Technology</a></li>
-					<li><a href="/samsung/search.php">Innovation</a></li>
-					<li><a href="/">Lifestyle</a></li>
-					<li><a href="/">Community</a></li>
+					<li class="current-menu-item"><a href="/samsung/technology.php">Technology</a></li>
+					<li><a href="/samsung/search.php">Search</a></li>
+					<li><a href="/samsung/author-post.php">Author Post</a></li>
+					<li><a href="/samsung/single-post.php">Blog</a></li>
 				</ul>
 				<div class="row">
 					<form action="">
@@ -57,15 +61,15 @@
 					</form>
 				</div>
 				<ul class='social-2'>
-					<li><a href="/"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="/"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="/"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="/"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="/"><i class="fa fa-snapchat-ghost"></i></a></li>
+					<li><a href="/samsung/"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="/samsung/"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="/samsung/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="/samsung/"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="/samsung/"><i class="fa fa-snapchat-ghost"></i></a></li>
 				</ul>
 			</nav>
 			<div class="logo">
-				<img src="compressed/images/re_logo.png" alt="Reimagine">
+				<a href="/samsung/"><img src="compressed/images/re_logo.png" alt="Reimagine"></a>
 			</div>
 			<div class="menu-button-wrapper">
 				<div class="menu-button"></div>

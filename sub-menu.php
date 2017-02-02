@@ -78,11 +78,11 @@
 									</div>
 									<span>Share:</span>
 									<ul class="social-3">
-										<li><a href="/"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="/"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="/"><i class="fa fa-linkedin"></i></a></li>
-										<li><a href="/"><i class="fa fa-instagram"></i></a></li>
-										<li><a href="/"><i class="fa fa-snapchat-ghost"></i></a></li>
+										<li><a href="/samsung/"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="/samsung/"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="/samsung/"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="/samsung/"><i class="fa fa-instagram"></i></a></li>
+										<li><a href="/samsung/"><i class="fa fa-snapchat-ghost"></i></a></li>
 									</ul>
 								</div>
 							</div>
