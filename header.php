@@ -49,8 +49,8 @@
 				<ul class="navigation">
 					<li class="current-menu-item"><a href="/samsung/technology.php">Technology</a></li>
 					<li><a href="/samsung/search.php">Search</a></li>
-					<li><a href="/samsung/author-post.php">Author Post</a></li>
-					<li><a href="/samsung/single-post.php">Blog</a></li>
+					<li><a href="/samsung/author.php">Author</a></li>
+					<li><a href="/samsung/">Blog</a></li>
 				</ul>
 				<div class="row">
 					<form action="">

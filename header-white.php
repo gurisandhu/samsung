@@ -6,7 +6,7 @@
 						<li class="current-menu-itme"><a href="/samsung/technology.php">Technology</a></li>
 						<li><a href="/samsung/search.php">Search</a></li>
 						<li><a href="/samsung/author.php">Author</a></li>
-						<li><a href="/samsung/single-post.php">Blog</a></li>
+						<li><a href="/samsung/">Blog</a></li>
 					</ul>
 				</nav>
 			</div>
