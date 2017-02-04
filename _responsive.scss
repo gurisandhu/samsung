@@ -106,11 +106,8 @@
 
 // News
 @media screen and (max-width:1170px){
-	.news{
-		> .col-2{
-			@include reset-col-2(0%, 2%);
-			height: 450px;
-		}
+	.col-four{
+		width: 48%;
 	}
 	.news-1{
 		height: 450px;
@@ -130,13 +127,18 @@
 	}
 }
 @media screen and (max-width:690px){
+	.col-two{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.col-four{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
 	.news{
-		> .col-2{
-			height: inherit;
-			> .col-2{
-				@include reset-col-2(0%, 2%);
-			}
-		}
+		padding-left: 0;
 	}
 	.blue-slider{
 		text-align: center;

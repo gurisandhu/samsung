@@ -60,11 +60,11 @@ $(document).ready(function(){
   // Video
   // ++++++++++++++++++++ 
   $('.video-play').click(function(){
-    $('.video-to-play', this).addClass('show');
+    $('.video-to-play').addClass('show');
       $("iframe#video-to-play").attr("src", $("iframe#video-to-play").attr("src").replace("autoplay=0", "autoplay=1"));
   });
   $('.post-video').click(function(){
-    $('.video-to-play', this).addClass('show');
+    $('.video-to-play').addClass('show');
       $("iframe#video-to-play").attr("src", $("iframe#video-to-play").attr("src").replace("autoplay=0", "autoplay=1"));
   });
 

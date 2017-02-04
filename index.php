@@ -50,7 +50,7 @@ Section: News with Video
 <section>
 	<div class="container">
 		<div class="full-width news">
-			<div class="col-2">
+			<div class="col-two">
 				<div class="news-video news-1 news-style-4">
 					<a href="#" class="news-content-front" style="background-image:url('compressed/images/video-image.png');">
 						<button type="button" class="button-3">Subject</button>
@@ -98,8 +98,7 @@ Section: News with Video
 					</div>
 				</div>
 			</div>
-			<div class="col-2">
-				<div class="col-2">
+				<div class="col-four">
 					<div class="news-1 news-style-2">
 						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
@@ -137,7 +136,7 @@ Section: News with Video
 						
 					</div>	
 				</div>
-				<div class="col-2">
+				<div class="col-four">
 					<div class="news-1 news-style-3">
 						<a href="#"  class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
@@ -171,7 +170,6 @@ Section: News with Video
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 	</div>
 </section>
@@ -272,7 +270,7 @@ Section: News
 <section>
 	<div class="container">
 		<div class="full-width news">
-			<div class="col-2">
+			<div class="col-two">
 				<div class="news-1 news-style-1">
 					<a href="#" class="news-content-front" style="background-image:url('compressed/images/in-360.png');">
 						<button type="button" class="button-3">Subject</button>
@@ -302,8 +300,7 @@ Section: News
 					</div>
 				</div>
 			</div>
-			<div class="col-2">
-				<div class="col-2">
+				<div class="col-four">
 					<div class="news-1 news-style-2">
 						<a href="#"  class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
@@ -341,7 +338,7 @@ Section: News
 						
 					</div>	
 				</div>
-				<div class="col-2">
+				<div class="col-four">
 					<div class="news-1 news-style-3">
 						<a href="#"  class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
@@ -375,10 +372,7 @@ Section: News
 						</div>
 					</div>
 				</div>
-			</div>
-		<!-- News another row -->
-			<div class="col-2">
-				<div class="col-2">
+				<div class="col-four">
 					<div class="news-1 news-style-2">
 						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
@@ -416,7 +410,7 @@ Section: News
 						
 					</div>	
 				</div>
-				<div class="col-2">
+				<div class="col-four">
 					<div class="news-1 news-style-3">
 						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
@@ -450,9 +444,7 @@ Section: News
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-2">
-				<div class="col-2">
+				<div class="col-four">
 					<div class="news-1 news-style-2">
 						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
@@ -490,7 +482,7 @@ Section: News
 						
 					</div>	
 				</div>
-				<div class="col-2">
+				<div class="col-four">
 					<div class="news-1 news-style-3">
 						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
@@ -524,7 +516,6 @@ Section: News
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 	</div>
 </section>
@@ -706,7 +697,7 @@ Section: News
 <section>
 	<div class="container">
 		<div class="full-width news">
-			<div class="col-2">
+			<div class="col-two">
 				<div class="news-1 news-style-1">
 					<a href="#" class="news-content-front" style="background-image:url('compressed/images/in-360.png');">
 						<button type="button" class="button-3">Subject</button>
@@ -736,8 +727,8 @@ Section: News
 					</div>
 				</div>
 			</div>
-			<div class="col-2">
-				<div class="col-2">
+			<!--  -->
+				<div class="col-four">
 					<div class="news-1 news-style-2">
 						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
@@ -775,7 +766,7 @@ Section: News
 						
 					</div>	
 				</div>
-				<div class="col-2">
+				<div class="col-four last">
 					<div class="news-1 news-style-3">
 						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
@@ -809,10 +800,8 @@ Section: News
 						</div>
 					</div>
 				</div>
-			</div>
 		<!-- News another row -->
-			<div class="col-2">
-				<div class="col-2">
+				<div class="col-four">
 					<div class="news-1 news-style-2">
 						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
@@ -850,7 +839,7 @@ Section: News
 						
 					</div>	
 				</div>
-				<div class="col-2">
+				<div class="col-four">
 					<div class="news-1 news-style-3">
 						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">
@@ -884,9 +873,8 @@ Section: News
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-2">
-				<div class="col-2">
+			
+				<div class="col-four">
 					<div class="news-1 news-style-2">
 						<a href="#" class="news-content-front" style="background-image:url('compressed/images/foot.png');">
 							<div class="table">
@@ -924,7 +912,7 @@ Section: News
 						
 					</div>	
 				</div>
-				<div class="col-2">
+				<div class="col-four last">
 					<div class="news-1 news-style-3">
 						<a href="#" class="news-content-front">
 							<img src="compressed/images/asian-man.png" alt="">

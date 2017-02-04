@@ -857,24 +857,9 @@ header{
 // News
 // //////////////
 .news{
-	padding: 70px 0;
-	> .col-2{
-		height: 340px;
-		display: block;
-		@include col-2(2%,2%);
-		text-decoration: none;
-		color: inherit;
-		-webkit-border-radius: 5px;
-		        border-radius: 5px;
-		> .col-2{
-			display: block;
-			text-decoration: none;
-			color: inherit;
-			-webkit-border-radius: 5px;
-		        border-radius: 5px;
-			@include col-2(4%,0%);
-		}
-	}
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 2%;
 }
 .news-1{
 	height: 100%;
@@ -886,11 +871,11 @@ header{
 	z-index: 1;
 	height: 340px;
 		&:hover{
-			// -webkit-transform: scale(1.04);
-			//    -moz-transform: scale(1.04);
-			//     -ms-transform: scale(1.04);
-			//      -o-transform: scale(1.04);
-			//         transform: scale(1.04);
+			-webkit-transform: scale(1.04);
+			   -moz-transform: scale(1.04);
+			    -ms-transform: scale(1.04);
+			     -o-transform: scale(1.04);
+			        transform: scale(1.04);
 			text-decoration: none;
 			background-color: black;
 			-webkit-box-shadow: 0px 6px 12px -1px rgba(0,0,0,0.57);
@@ -922,6 +907,7 @@ header{
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
+	    background-position: center;
 	&:after{
 		content: "";
 		position: absolute;
@@ -1170,7 +1156,7 @@ header{
 	}
 }
 .news-video{
-	height: 100%;
+	height: 340px;
 	overflow: hidden;
 	position: relative;
 	-webkit-border-radius: 5px;
@@ -2193,11 +2179,11 @@ summary{
 				     -o-transform: translate3d(0,-100%,0);
 				        transform: translate3d(0,-100%,0);
 			}
-			// -webkit-transform: scale(1.02);
-			//    -moz-transform: scale(1.02);
-			//     -ms-transform: scale(1.02);
-			//      -o-transform: scale(1.02);
-			//         transform: scale(1.02);
+			-webkit-transform: scale(1.02);
+			   -moz-transform: scale(1.02);
+			    -ms-transform: scale(1.02);
+			     -o-transform: scale(1.02);
+			        transform: scale(1.02);
 		}
 }
 .search-result-hover{
@@ -2357,6 +2343,18 @@ summary{
 		right: 0;
 		background-color: rgba(0,0,0,.4);
 	}
+}
+.col-two{
+	float: left;
+	margin-right: 2%;
+	width: 48%;
+	margin-bottom: 2%;
+}
+.col-four{
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+	margin-bottom: 2%;
 }
 // //////////////
 //This file link includes resonsive style and it MUST always stays at the bottom of this file. If you need to type code, please type above to this link. Don't type below of responsive file link.
